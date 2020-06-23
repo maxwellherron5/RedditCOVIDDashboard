@@ -41,7 +41,7 @@ def get_piechart_data():
         # Maps each column value to an int value, converts to a list, takes sum
         column_sums[i] = sum(list(map(int, results_df[i])))
     column_percentages = get_percentage(column_sums)
-    return column_percentages
+    return jsonify(column_percentages)
 
 
 def get_percentage(piechart_values):

@@ -1,0 +1,20 @@
+#pie-chart {
+	position:relative;
+	top:40%;
+	left:10px;
+	width:400px;
+  height: 400px;
+  display: inline-block;
+}
+
+#pieChart .title, #barChart .title{
+  font-weight: bold;
+}
+
+.slice {
+  font-size: 13px;
+  font-family: Verdana;
+  fill: white;
+  font-weight: bold;
+  cursor: pointer;
+}
